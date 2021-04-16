@@ -25,7 +25,7 @@ SECRET_KEY = '24yk+ra0nqu+&^o@w=-z(-&=@nmwjr-a1pt#(*h6=)udvn=ygk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '']
+ALLOWED_HOSTS = ['localhost', 'imran-resumeproject.herokuapp.com']
 
 
 # Application definition

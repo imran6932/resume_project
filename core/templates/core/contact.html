@@ -1,0 +1,56 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="container text-white">
+    <h1 class="border-bottom mt-5 text-center text-warning text-weight-bold">Contact us</h1>
+    <p class="text-center mt-5 mb-5">Do you have any questions? Please do not hesitate to contact me. I will come back to you within a matter of hours to help you</p>
+    <div class="row">
+        <div class="col-sm-9">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group  col-md-6">
+                        <label class="mb-2" for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group  col-md-6">
+                        <label class="" for="email">Your Email</label>
+                        <input type="text" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <label for="subject">Your Subject</label>
+                    <input type="text" class="form-control" id="subject">
+                </div>
+                <div class="mb-3">
+                    <label class="mb-2" for="area">Your Message</label>
+                    <textarea class="form-control" id="area"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-unstyled text-center">
+                <li>
+                    <i class="fas fa-map-marker-alt fa-2x i-color "></i>
+                    <p>Jamshedpur, Jharkhand, India</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone fa-2x mt-5 i-color"></i>
+                    <p>+91 8765321110</p>
+                </li>
+                <li>
+                    <i class="fas fa-envelope fa-2x mt-5 i-color"></i>
+                    <p>abcd@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="text-center mt-5">
+    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square i-color fa-2x mr-3"></i></a>
+    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square i-color fa-2x mr-3"></i></a>
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square i-color fa-2x mr-3"></i></a>
+    <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp-square i-color fa-2x mr-3"></i></a>
+    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin i-color fa-2x mr-3"></i></a>
+    <a href="https://www.github.com" target="_blank"><i class="fab fa-github-square i-color fa-2x "></i></a>
+</div>
+{% endblock content %}
